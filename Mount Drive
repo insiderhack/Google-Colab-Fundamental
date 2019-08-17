@@ -1,0 +1,5 @@
+from google.colab import drive
+drive.mount('/content/drive/')
+
+# Mount drive(Here you will get a link in Colab jupyter shell. Click the generated link and verify your google drive.
+# copy the veryfy code to jupyter shell.
