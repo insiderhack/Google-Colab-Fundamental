@@ -1,0 +1,5 @@
+normal_1 = pd.read_csv('normal_1.csv', skiprows = np.arange(100, normal_1.shape[0])) 
+normal_2 = pd.read_csv('normal_2.csv', skiprows = np.arange(100, normal_2.shape[0])) 
+abnormal = pd.read_csv('abnormal.csv', skiprows = np.arange(50, abnormal.shape[0])) 
+
+# Now, you can read those files and load in a dataframe for further use.
