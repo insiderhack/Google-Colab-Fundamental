@@ -1,0 +1,12 @@
+from sklearn.externals import joblib
+filename = 'model.sav'
+joblib.dump(clf, filename)
+
+# Upload model to you google drive
+model_file = drive.CreateFile({'title' : 'model.sav'})
+model_file.SetContentFile('model.sav')
+model_file.Upload()
+
+# Save the model to disk after training your model:Use joblib
+# Now, go to your My drive and refresh it. You will finding something "model.sav".
+# I hope it will help you to create ur own project.
