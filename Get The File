@@ -1,0 +1,13 @@
+normal_1 = drive.CreateFile({'id':'13AR0sS1pndF0fTxmdjQRv_1Bv5aBNpkT'}) 
+normal_1.GetContentFile('normal_1.csv')
+
+normal_2 = drive.CreateFile({'id':'1Z0DO8M1Qco07kyVoxYSgxXBx6XYGBzJd'}) 
+normal_2.GetContentFile('normal_2.csv')
+
+abnormal = drive.CreateFile({'id':'12zFHDXVjreorRrHHhYrA1n82VQLuawsl'}) 
+abnormal.GetContentFile('abnormal.csv')
+
+# To get the file, replace the id with id(your file id) of file you want to access. For me, it was csv file.
+# To get the id, go to share and generate a link. you will find something like : 
+# https://drive.google.com/file/d/xxxxxxxxxxxxxx/view?usp=sharing.
+# Put it(xxxxxxxxxxxxxx) on below and do the same, how many files you want to read.
