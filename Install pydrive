@@ -1,0 +1,7 @@
+!pip install pydrive
+
+# This syntax uses for installing pydrive on google colab
+# PyDrive is a wrapper library of google-api-python-client that simplifies many common Google Drive API tasks.
+# Homepage: https://pypi.python.org/pypi/PyDrive
+# Documentation: Official documentation on GitHub pages
+# Github: https://github.com/googledrive/PyDrive
